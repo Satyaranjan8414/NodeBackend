@@ -1,5 +1,0 @@
-Hi This is CURD OPERATION FILES
-C-Create
-U-Update
-R-Remove
-D-Delete

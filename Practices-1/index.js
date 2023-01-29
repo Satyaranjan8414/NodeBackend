@@ -33,6 +33,13 @@ const deletefile=(fileName)=>{
     });
 }
 
+const makeCowsay=(content)=>{
+    console.log(cowsay.say({
+        text: content
+    }))
+}
+
+
 if(input[2]==="gip"){
     console.log(input[3])
     getIp(input[3])
@@ -44,5 +51,7 @@ if(input[2]==="gip"){
     readFile(input[3])
 }else if(input[2]==="df"){
     deletefile(input[3])
+}else if(input[2]==="mcw"){
+    makeCowsay(input[3])
 }
 

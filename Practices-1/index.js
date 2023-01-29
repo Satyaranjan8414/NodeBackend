@@ -3,6 +3,8 @@ const input=process.argv
 const dns=require("dns");
 // console.log(input)
 
+const cowsay=require("cowsay")
+
 // fs.writeFile("hepler_functions.js","Hi i am Satya",(err)=>{
 //     console.log("File Created")
 // })

@@ -33,4 +33,4 @@ const makeCowsay=(content)=>{
     }))
 }
 
-module.exports={getIp,}
+module.exports={getIp,writeFile,readFile,deletefile,makeCowsay}

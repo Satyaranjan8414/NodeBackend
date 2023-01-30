@@ -1,43 +1,10 @@
-const fs=require("fs")
+
+
 const input=process.argv
-const dns=require("dns");
-// console.log(input)
-
-const cowsay=require("cowsay")
-
 // fs.writeFile("hepler_functions.js","Hi i am Satya",(err)=>{
 //     console.log("File Created")
 // })
-const getIp=(arg)=>{
-    dns.lookup(`www.${arg}.com`,function(err,ip){
-        console.log(ip)
-    })
-}
-const writeFile = (arg,data1)=>{
-    fs.writeFile(arg,data1,(err)=>{
-        console.log("File Created")
-    })
-}
 
-const readFile=()=>{
-    fs.readFile("text.txt","utf8",(err,data)=>{
-        console.log(data);
-        
-    })
-}
-
-const deletefile=(fileName)=>{
-    fs.unlink(fileName,(err)=>{
-        console.log("File Deleted");
-        
-    });
-}
-
-const makeCowsay=(content)=>{
-    console.log(cowsay.say({
-        text: content
-    }))
-}
 
 
 if(input[2]==="gip"){

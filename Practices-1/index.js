@@ -1,4 +1,4 @@
-
+const {getIp,writeFile,readFile,deletefile,makeCowsay}=require("./hepler_functions")
 
 const input=process.argv
 // fs.writeFile("hepler_functions.js","Hi i am Satya",(err)=>{

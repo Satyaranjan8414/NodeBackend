@@ -2,7 +2,7 @@ const os=require("os")
 
 //arch Is Gives the architecture 
 
-// console.log(os.arch());
+console.log(os.arch());
 
 //How much space is available
 

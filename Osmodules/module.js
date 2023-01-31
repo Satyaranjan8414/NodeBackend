@@ -12,3 +12,20 @@ const freeSpace=os.freemem();
 // console.log(freeSpace);
 
 //To GB of free
+
+console.log(`${freeSpace/1024/1024/1024}`);
+
+
+const totalSpace=os.totalmem();
+
+//It give us in bits of free
+// console.log(freeSpace);
+
+//To GB of free
+
+//For Memory usage
+
+//ctrl+shift+escape
+
+console.log(`${totalSpace/1024/1024/1024}`);
+

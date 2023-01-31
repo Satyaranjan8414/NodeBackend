@@ -1,5 +1,13 @@
 const fs=require('fs');
 
+
+//To make any Folder 
+
+fs.mkdir("nameOfTheFolder",(err)=>{
+    console.log("Folder created");
+})
+
+
 //To Wite the file we have to Wite This Commnad 
 
 fs.writeFileSync('bio.txt',"Hi This is Curd Files")
